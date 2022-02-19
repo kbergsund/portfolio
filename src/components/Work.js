@@ -1,8 +1,8 @@
 import '../scss/Work.scss';
 
-const Work = () => {
+const Work = ({ id }) => {
   return (
-    <section className='work'>
+    <section className='work' id={id}>
       <h2>Work</h2>
       <p>1</p>
       <p>2</p>

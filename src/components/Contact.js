@@ -1,8 +1,8 @@
 import '../scss/Contact.scss';
 
-const Contact = () => {
+const Contact = ({ id }) => {
   return (
-    <footer>
+    <footer id={id}>
       <h2>Contact</h2>
       <p>Resume</p>
     </footer>
