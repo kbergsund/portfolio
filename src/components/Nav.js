@@ -11,7 +11,7 @@ const Nav = () => {
 
   return (
     <nav>
-      <button className='kb' id='home'>kb</button>
+      <button className='kb' id='home' onClick={() => handleClick('home')}>kb</button>
       <section className='nav-buttons'>
         <Button variant='text' onClick={() => handleClick('home')}>Home</Button>
         <Button variant='text' color='primary' onClick={() => handleClick('about')}>About</Button>

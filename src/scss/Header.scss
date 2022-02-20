@@ -1,9 +1,21 @@
 header {
-  border: 1px solid purple;
-  height: 20em;
+  height: 18em;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
   justify-content: flex-end;
   padding: 2em;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+.header-hi {
+  font-size: 2em;
+}
+
+h1,
+.header-hi {
+  color: #fff;
 }

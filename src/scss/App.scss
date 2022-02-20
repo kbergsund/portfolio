@@ -12,7 +12,6 @@ html {
 
 .App {
   height: 100%;
-  // margin-top: 1em;
 }
 .background-img {
   background-image: url('../../public/background-img-cropped.png');
@@ -20,4 +19,19 @@ html {
   background-position: bottom;
   background-attachment: fixed;
   padding-top: 1em;
+}
+
+.line {
+  margin-top: .5em;
+  background-color: #1E5359;
+  border: 1px solid #1E5359;
+  width: 90%;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+h3 {
+  color: #3B758C;
 }

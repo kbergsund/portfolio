@@ -1,5 +1,29 @@
 .about {
-  border: 2px solid red;
-  height: 22em;
+  height: 21em;
   background-color: #FAFFFF;
+  padding: 1em 0;
+  display: flex;
+  justify-content: center;
+}
+
+.about-color-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  // border: 1px solid purple;
+  width: 80%;
+  background-color: #A7D4D9;
+  border-radius: 20px;
+  padding: 1.5em 0;
+}
+
+// .about-header {
+//   padding-top: 1em;
+// }
+
+.long-bio {
+  width: 75%;
+  text-align: center;
+  font-size: 1em;
 }

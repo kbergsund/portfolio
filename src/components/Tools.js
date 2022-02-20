@@ -6,7 +6,7 @@ const Tools = () => {
   return (
     <section className='tools'>
       <h2>I’m a detail-oriented software engineer.</h2>
-      <p className='short-bio'>Interested in products that benefit communities and bring people closer to what they love. Hoping to broaden access to human connection and outdoor recreation as a means of inspiring diverse audiences to care more for each other and the environment.</p>
+      <p className='short-bio'>Interested in products that benefit communities and bring people closer to what they love. Hoping to broaden access to self-expression, human connection and outdoor recreation as a means of inspiring diverse audiences to care more for each other and the environment.</p>
       <h3>Top Tools:</h3>
         <section className='tool-circles'>
         <div className='tool-icon-background'><FaReact color='white' size='40'/></div>
@@ -17,7 +17,8 @@ const Tools = () => {
         <div className='tool-icon-background'><FaNpm color='white' size='40'/></div>
         <div className='tool-icon-background'><FaNodeJs color='white' size='40'/></div>
       </section>
-      <p>See complete stack on my Github</p>
+      <p>See complete stack on my <a href='https://github.com/kbergsund/'>Github</a></p>
+      {/* <div className='line'></div> */}
     </section>
   )
 }

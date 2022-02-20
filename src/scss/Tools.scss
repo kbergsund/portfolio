@@ -1,6 +1,5 @@
 .tools {
-  border: 1px solid orange;
-  height: 18em;
+  height: 20em;
   background-color: #FAFFFF;
   display: flex;
   flex-direction: column;
@@ -16,14 +15,16 @@
 
 .tool-circles {
   display: flex;
-  border: 1px solid blue;
   width: 40em;
   justify-content: space-between;
 }
 
+h2 {
+  color: #3B758C;
+}
+
 .tool-icon-background {
   background-color: #1E5359;
-  // padding: .7em;
   height: 4.5em;
   width: 4.5em;
   border-radius: 100%;
