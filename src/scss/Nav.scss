@@ -3,6 +3,26 @@ nav {
   justify-content: space-between;
   position: sticky;
   top: 0;
-  backdrop-filter: blur(.2rem);
-  height: 2em;
+  z-index: 5;
+  // backdrop-filter: blur(.1rem);
+  // margin: 1em;
+}
+
+.nav-buttons {
+  position: sticky;
+  height: fit-content;
+  top: 0;
+  width: 20em;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 1em;
+}
+
+.kb {
+  height: 5.5em;
+  width: 5.5em;
+  border-radius: 100%;
+  background-color: #1E5359;
+  color: #fff;
+  margin-left: 1em;
 }

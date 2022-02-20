@@ -1,4 +1,34 @@
 .tools {
   border: 1px solid orange;
-  height: 20em;
+  height: 18em;
+  background-color: #FAFFFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1em;
+}
+
+.short-bio {
+  width: 60%;
+  text-align: center;
+}
+
+.tool-circles {
+  display: flex;
+  border: 1px solid blue;
+  width: 40em;
+  justify-content: space-between;
+}
+
+.tool-icon-background {
+  background-color: #1E5359;
+  // padding: .7em;
+  height: 4.5em;
+  width: 4.5em;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
