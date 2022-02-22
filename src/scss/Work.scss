@@ -1,5 +1,50 @@
 .work {
-  border: 1px solid green;
-  height: 30em;
+  height: 38em;
   background-color: #FAFFFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.project-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  justify-items: center;
+  padding: 1em;
+  margin-top: .5em;
+}
+
+.project {
+  width: 23em;
+}
+
+img {
+  width: 23em;
+  border-radius: 10px;
+  padding-bottom: 1em;
+  // transition: all 200ms ease-in-out;
+  // position: relative;
+  //   z-index: 1;
+
+  // &:hover {
+  //   transform: scale(1.01);
+  //   position: relative;
+  //   z-index: 2;
+  // }
+}
+
+.project-bio {
+  font-size: .9em;
+  padding-top: .5em;
+}
+
+.repo-link {
+  text-decoration: none;
+  color: #3B758C;
+}
+
+h4 {
+  padding-bottom: .5em;
+  font-size: 1.2em;
 }

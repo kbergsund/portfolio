@@ -13,9 +13,18 @@
   text-align: center;
 }
 
-.tool-circles {
+.tool-circle-container {
   display: flex;
   width: 40em;
+  justify-content: space-between;
+  height: 6.5em;
+  border: 1px solid blue;
+}
+
+.tool-circle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: space-between;
 }
 
@@ -31,5 +40,5 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
-
+  margin-bottom: .5em;
 }
