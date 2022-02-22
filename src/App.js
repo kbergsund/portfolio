@@ -12,6 +12,9 @@ function App() {
       },
       secondary: {
         main: '#3B758C'
+      },
+      tertiary: {
+        main: '#A7D4D9'
       }
     },
   })
