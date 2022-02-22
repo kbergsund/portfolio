@@ -1,4 +1,3 @@
-import { useRef } from 'react';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import Nav from './components/Nav';
 import Header from './components/Header';
@@ -11,11 +10,14 @@ function App() {
       primary: {
         main: '#1E5359'
       },
+      secondary: {
+        main: '#3B758C'
+      }
     },
   })
 
   return (
-    <div className="App">
+    <div className='App' id='home'>
       <ThemeProvider theme={theme}>
         <div className='background-img'>
           <Nav />
